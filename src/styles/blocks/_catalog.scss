@@ -1,11 +1,10 @@
 .catalog {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
   width: 944px;
-  
   height: 904px;
   padding-top: 50px;
-  flex-direction: row;
-  flex-wrap: wrap;
   align-content: space-between;
   justify-content: space-between;
 }
