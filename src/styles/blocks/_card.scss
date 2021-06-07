@@ -6,11 +6,20 @@
   background: #fff;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
+  perspective: 500px;
+  transition: all 0.15s linear;
 
   &__image {
     margin: 15px 5px 45px;
     width: 160px;
     height: 134px;
+  
+
+    &:hover {
+      transform: translate3D(0, 11px, 100px);
+      transition: 0.4s;
+      border: 3px solid transparent;
+    }
   }
 
   &__name {
