@@ -12,10 +12,10 @@
     margin: 15px 5px 45px;
     width: 160px;
     height: 134px;
+    transition: 0.4s;
   
     &:hover {
       transform: translate3D(0, 11px, 100px);
-      transition: 0.4s;
       border: 3px solid transparent;
     }
   }

@@ -8,5 +8,10 @@
 
   &__logo {
     height: 40px;
+    transition: 0.4s;
+
+    &:hover {
+      transform: scale(120%);
+    }
   }
 }
